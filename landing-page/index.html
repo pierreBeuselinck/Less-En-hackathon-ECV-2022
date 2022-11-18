@@ -11,6 +11,11 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Londrina+Solid:wght@300;400;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -22,68 +27,219 @@
 
 
     <header>
-        <nav>
-            <img src="" alt="" srcset="">
-            <ul>
-                <li>
-                    <a href="">Aide</a>
-                </li>
-            </ul>
+        <nav class="c-header">
+            <img class="c-logo" src="assets/image/logo/logo.svg" alt="" srcset="" width="175" height="50">
         </nav>
-        <div class="c-container">
-            <div class="c-header">
-                <div>
-                    <img src="" alt="" srcset="">
-                    <h1>Slogan ou titre</h1>
-                    <p></p>
-                    <button>Ajouter à Chrome</button>
+
+        <div class="c-cover">
+            <div class="c-cover__content">
+                <h1 class="c-cover__title">Des alternatives <span class="c-cover__underline">responsable</span><br>
+                    pour vos achats</h1>
+                <button class="c-button c-button--icon c-button--download">
+                    <img class="c-icon" src="assets/image/icons/chrome.svg" alt="" srcset="" width="20" height="20">
+                    Ajouter à chrome - c’est gratuit !
+                </button>
+                <div class="c-cover__soon">
+                    Prochainement sur
+                    <div class="c-cover__navigator">
+                        <span>
+                            <img src="assets/image/icons/safari.svg" alt="" srcset="" width="16" height="16">
+                            Safari
+                        </span>
+                        <span>
+                            <img src="assets/image/icons/firefox.svg" alt="" srcset="" width="16" height="16">
+                            Firefox
+                        </span>
+                    </div>
                 </div>
+            </div>
+            <div class="c-cover__img">
+                <img src="assets/image/cover.png" alt="">
             </div>
         </div>
     </header>
 
-    <main class="c-container">
+    <main>
 
-        <div>
-
-        </div>
-
-        <div>
-            <div>
-                <p>All of the sustainable products I want, seamlessly suggested while I’m shopping, without any
-                    painstaking research?</p>
-                <p>Nom prenom</p>
+        <div class="u-bg-stats">
+            <div class="c-container">
+                <div class="c-stats">
+                    <div class="c-stats__item">
+                        <p class="c-stats__number">58 600</p>
+                        <p>produits alternatifs</p>
+                    </div>
+                    <div class="c-stats__item">
+                        <p class="c-stats__number">1 000</p>
+                        <p>marques
+                            éco-responsable</p>
+                    </div>
+                    <div class="c-stats__item">
+                        <p class="c-stats__number">1 000 +</p>
+                        <p>utilisateurs
+                            déjà conquis</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div>
-            <div>
-                <img src="" alt="" srcset="">
-                <p></p>
+        <div class="u-bg-ecoscore">
+            <div class="c-container">
+                <div class="c-eco-score">
+                    <div class="c-eco-score__alt">
+                        <div class="c-eco-score__content">
+                            <h2 class="c-eco-score__title">Des alternatives
+                                <span>éco-responsable</span>
+                            </h2>
+                            <p>Une recommendation d’alternative basée sur les retours de la <strong>communauté
+                                    Less-En</strong>
+                                et des critères éco-responsable validés par nos experts sous la forme
+                                d’<strong>éco-point</strong> se basant sur l’impact écologique du produit.</p>
+                        </div>
+                        <div class="c-eco-score__img">
+                            <img src="assets/image/alternative.png" alt="" srcset="" width="576">
+                        </div>
+                    </div>
+    
+                    <div class="c-container c-container--sm">
+    
+    
+                        <h2 class="c-eco-score__title">Comment fonctionne notre
+                            <span>éco-points ?</span>
+                        </h2>
+    
+                        <div class="c-eco-score__categories">
+                            <div class="c-eco-score__button-wrapper">
+                                <button class="c-button c-button--eco-score">
+                                    Textiles
+                                </button>
+                                <button class="c-button c-button--eco-score">
+                                    Cosmétique
+                                </button>
+                                <button class="c-button c-button--eco-score">
+                                    High-tech
+                                </button>
+                            </div>
+                            <p>
+                                Le textile est une industrie qui a des conséquences néfastes sur l'environnement. Plusieurs
+                                études ont montré que le textile est responsable de grandes quantités de pollution.
+                                <br>
+                                Les fabricants de textiles emploient beaucoup d'énergie pour chauffer leur atelier et sont
+                                donc
+                                responsables d'un énorme dommage pour l'environnement. Ces activités ont aussi un impact
+                                négatif
+                                sur la santé des ouvriers qui y travaillent.
+                            </p>
+                        </div>
+    
+                        <div class="c-eco-score__labels">
+                            <div class="c-eco-score__labels-item">
+                                <img src="assets/image/icons/local.svg" alt="" srcset="" width="64" height="64">
+                                <p>Fabrication locale</p>
+                            </div>
+                            <div class="c-eco-score__labels-item">
+                                <img src="assets/image/icons/vegan.svg" alt="" srcset="" width="64" height="64">
+                                <p>Vegan</p>
+                            </div>
+                            <div class="c-eco-score__labels-item">
+                                <img src="assets/image/icons/recycle.svg" alt="" srcset="" width="64" height="64">
+                                <p>Matières recyclées</p>
+                            </div>
+                            <div class="c-eco-score__labels-item">
+                                <img src="assets/image/icons/ethic.svg" alt="" srcset="" width="64" height="64">
+                                <p>Rémunération équitable</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div>
-            <p>Got more questions?</p>
-            <p>
-                Read our <a href="#">Help page</a> or <a href="#">Send us an email</a>
-            </p>
+        <div class="u-bg-market">
+            <div class="c-container">
+                <div class="c-market">
+                    <p class="c-market__title">Notre extension fonctionne sur</p>
+                    <div class="c-market_wrapper">
+                        <img class="c-market__img" src="assets/image/logo/amazon.svg" alt="" srcset="" height="48">
+                        <img class="c-market__img" src="assets/image/logo/ohmycream.svg" alt="" srcset="" height="48">
+                        <img class="c-market__img" src="assets/image/logo/asos.svg" alt="" srcset="" height="48">
+                        <img class="c-market__img" src="assets/image/logo/zalando.svg" alt="" srcset="" height="48">
+                    </div>
+                    <p>et +1000 autres marchands</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="c-container">
+            <div class="c-guide">
+                <h2 class="c-guide__title">C’est simple et en 3 étapes !</h2>
+                <div class="c-guide__items-wrapper">
+                    <div class="c-guide__item">
+                        <img src="assets/image/guide/guide-step-1.png" alt="" srcset="">
+                        <p class="c-guide__title">
+                            Recherche d’alternative
+                        </p>
+                        <p>
+                            LESS-EN recherche automatiquement des alternatives durables pendant que vous “shoppez”
+                            normalement.
+                        </p>
+                    </div>
+                    <div class="c-guide__item">
+                        <img src="assets/image/guide/guide-step-2.png" alt="" srcset="">
+                        <p class="c-guide__title">
+                            Bénéficie de réductions
+                        </p>
+                        <p>
+                            Béneficie des réductions chez nos e-shops et marques partenaires
+                        </p>
+                    </div>
+                    <div class="c-guide__item">
+                        <img src="assets/image/guide/guide-step-3.png" alt="" srcset="">
+                        <p class="c-guide__title">
+                            Gagne des récompenses
+                        </p>
+                        <p>
+                            Cumule des points et obtiens de multiples récompenses
+                        </p>
+                    </div>
+                </div>
+                <button class="c-button c-button--icon c-button--download">
+                    <img class="c-icon" src="assets/image/icons/chrome.svg" alt="" srcset="" width="20" height="20">
+                    Ajouter à chrome - c’est gratuit !
+                </button>
+            </div>
         </div>
 
     </main>
-    <footer>
-        <div>
-            <div>
-                <img src="" alt="" srcset="">
-                <p>Company number 11926789</p>
+    <footer class="c-footer">
+        <div class="c-footer-content">
+            <div class="c-footer__top">
+                <div class="c-footer__left">
+                    <img src="assets/image/logo/logo-white.svg" alt="Less-en" srcset="" height="50">
+                </div>
+                <div class="c-footer__right">
+                    <ul>
+                        <li><a href="#">Politique de confidentialitée</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                    </ul>
+                    <div class="c-footer__social">
+                        <a href="#">
+                            <img src="assets/image/logo/tiktok.svg" alt="" srcset="" width="24" height="24">
+                        </a>
+                        <a href="#">
+                            <img src="assets/image/logo/spotify.svg" alt="" srcset="" width="24" height="24">
+                        </a>
+                        <a href="#">
+                            <img src="assets/image/logo/instagram.svg" alt="" srcset="" width="24" height="24">
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <ul>
-                    <li><a href="">Terms & Conditions</a></li>
-                </ul>
+            <div class="c-footer__bottom">
+                <p>Contactez-nous: contact@lesseen.com</p>
+                <p>Copyright 2022 Less-en Tous droits réservés.</p>
             </div>
         </div>
-        <div></div>
     </footer>
 
     <script src="assets/js/script.js" async defer></script>
